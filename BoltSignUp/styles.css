@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Agrandir, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.signup {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1d1f;
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+}
+
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+  color: #6C6C6C;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  color: #000;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #11190D;
+  color: #E6FF02;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 53px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
